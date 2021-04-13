@@ -1,0 +1,12 @@
+{
+  "name": "learn/composer",
+  "type": "learn",
+  "description": "i am learning php composer autoload",
+  "keywords": ["learn", "composer"],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  }
+}
